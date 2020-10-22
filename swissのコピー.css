@@ -1,0 +1,34 @@
+
+html, container {
+height: 100%;
+width: 100%;
+margin: 0 auto;
+background-color: blue;
+}
+
+body {
+	height: 300px;
+background-color: red;
+}
+
+body:after {
+position: absolute;
+content: "";
+height: 100%;
+width: 10%;
+top: 0px;
+left: 25%;
+margin-left: -5%;
+background-color: white;
+}
+
+body:before {
+position: absolute;
+content: "";
+width: 100%;
+height: 10%;
+top: 50%;
+left: 0px;
+margin-top: -5%;
+background-color: white;
+}
